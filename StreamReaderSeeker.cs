@@ -45,6 +45,7 @@ public static class StreamReaderSeeker
                 var buffer = new char[bufferSizeInBytes];
                 var bufferSizeInCharacters = reader.Read(buffer, 0, bufferSizeInBytes);
                 var positiveCharacterPosition = bufferSizeInCharacters - Math.Abs(characterPosition);
+                reader.DiscardBufferedData();
                 reader.BaseStream.Position = streamPosition - bufferSizeInBytes;
                 reader.Read(buffer, 0, positiveCharacterPosition);
             }
