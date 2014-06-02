@@ -7,7 +7,7 @@
     <ProjectGuid>{47A052DA-F38A-40A3-9902-B04500F1D409}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StreamReaderSeeker</RootNamespace>
+    <RootNamespace>StreamUtils</RootNamespace>
     <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
