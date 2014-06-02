@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>StreamReaderSeeker</id>
+    <version>0.1</version>
+    <authors>Pawel Stroinski</authors>
+    <owners>Pawel Stroinski</owners>
+    <licenseUrl>https://github.com/PawelStroinski/StreamReaderSeeker/blob/master/COPYING.md</licenseUrl>
+    <projectUrl>https://github.com/PawelStroinski/StreamReaderSeeker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Two extension methods of StreamReader allowing to GetPosition and then to Seek back to that position. Furthermore, position can be fine-tuned by number of characters with help of Position.ShiftByCharacters method, if needed. See example @ https://github.com/PawelStroinski/StreamReaderSeeker</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Stream StreamReader Seek</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
