@@ -2,14 +2,14 @@
 using System.Reflection;
 using NUnit.Framework;
 
-namespace Test
+namespace StreamReaderSeeker
 {
     public class StreamReaderSeekerTest
     {
         [Test]
         public void DiscardsBufferedDataWhenCharacterPositionIsNegative()
         {
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Test.input");
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("StreamReaderSeeker.input");
             var reader = new StreamReader(stream);
             var buffer = new char[30];
             reader.Seek(new StreamReaderSeeker.Position(1158, -431));
