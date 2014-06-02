@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamReaderSeeker", "StreamReaderSeeker.csproj", "{2681B7F2-5CF2-48A2-AF4F-5071547812BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{2681B7F2-5CF2-48A2-AF4F-5071547812BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{47A052DA-F38A-40A3-9902-B04500F1D409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamReaderSeeker", "StreamReaderSeeker\StreamReaderSeeker.csproj", "{7AC1B1D1-4882-44C8-A445-70AEDF2B2E37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{47A052DA-F38A-40A3-9902-B04500F1D409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A052DA-F38A-40A3-9902-B04500F1D409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A052DA-F38A-40A3-9902-B04500F1D409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC1B1D1-4882-44C8-A445-70AEDF2B2E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC1B1D1-4882-44C8-A445-70AEDF2B2E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC1B1D1-4882-44C8-A445-70AEDF2B2E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC1B1D1-4882-44C8-A445-70AEDF2B2E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
