@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>StreamReaderSeeker</id>
-    <version>0.2</version>
+    <version>0.3</version>
     <authors>Pawel Stroinski</authors>
     <owners>Pawel Stroinski</owners>
     <licenseUrl>https://github.com/PawelStroinski/StreamReaderSeeker/blob/master/COPYING.md</licenseUrl>
