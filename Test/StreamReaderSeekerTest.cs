@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using System.Reflection;
+using System.Text;
 using NUnit.Framework;
 
 namespace StreamUtils
@@ -22,9 +23,10 @@ namespace StreamUtils
         [Test]
         public void GetPosition()
         {
-            var reader = new StreamReader(new MemoryStream());
+            var reader = new StreamReader(new MemoryStream(Encoding.UTF8.GetBytes("text")));
+            reader.ReadToEnd();
             var actual = reader.GetPosition();
-            Assert.AreEqual("streamPosition=0, characterPosition=0", actual.ToString());
+            Assert.AreEqual("streamPosition=4, characterPosition=0", actual.ToString());
         }
     }
 }
