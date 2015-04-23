@@ -28,5 +28,11 @@ namespace StreamUtils
             var actual = reader.GetPosition();
             Assert.AreEqual("streamPosition=4, characterPosition=0", actual.ToString());
         }
+
+        [Test]
+        public void SimpleExample()
+        {
+            Program.SimpleExample();
+        }
     }
 }

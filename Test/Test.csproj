@@ -50,6 +50,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Demo\Demo.csproj">
+      <Project>{2681b7f2-5cf2-48a2-af4f-5071547812bf}</Project>
+      <Name>Demo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StreamReaderSeeker\StreamReaderSeeker.csproj">
       <Project>{7ac1b1d1-4882-44c8-a445-70aedf2b2e37}</Project>
       <Name>StreamReaderSeeker</Name>

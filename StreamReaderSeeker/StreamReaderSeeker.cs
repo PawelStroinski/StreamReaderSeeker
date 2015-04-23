@@ -10,7 +10,7 @@ namespace StreamUtils
         public static Position GetPosition(this StreamReader reader)
         {
             var runningOnMono = Type.GetType("Mono.Runtime") != null;
-            int byteBufferSize = GetField(reader, runningOnMono ? "buffer_size" : "byteLen");
+            int byteBufferSize = GetField(reader, runningOnMono ? "decoded_count" : "byteLen");
             int characterPosition = GetField(reader, runningOnMono ? "pos" : "charPos");
             return new Position(streamPosition: reader.BaseStream.Position - byteBufferSize,
                 characterPosition: characterPosition);
