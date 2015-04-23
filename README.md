@@ -1,5 +1,7 @@
 StreamReaderSeeker
 ==================
+[![Build Status](https://travis-ci.org/PawelStroinski/StreamReaderSeeker.svg?branch=master)](https://travis-ci.org/PawelStroinski/StreamReaderSeeker)
+
 Two extension methods of `StreamReader` allowing to `GetPosition` and then to `Seek` back to that position. Furthermore, position can be fine-tuned by number of characters with help of `Position.ShiftByCharacters` method, if needed.
 
 ### Example
