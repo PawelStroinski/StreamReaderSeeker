@@ -18,5 +18,13 @@ namespace StreamUtils
             var actual = new string(buffer);
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void GetPosition()
+        {
+            var reader = new StreamReader(new MemoryStream());
+            var actual = reader.GetPosition();
+            Assert.AreEqual("streamPosition=0, characterPosition=0", actual.ToString());
+        }
     }
 }
